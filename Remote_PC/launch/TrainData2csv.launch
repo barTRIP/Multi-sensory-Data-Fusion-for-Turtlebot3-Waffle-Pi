@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="data_fusion" type="TrainData3csv.py" name="TrainData3csv" output="screen" />
+  <node pkg="data_fusion" type="TrueData3csv.py" name="TrueData3csv" output="screen" />
+</launch>
