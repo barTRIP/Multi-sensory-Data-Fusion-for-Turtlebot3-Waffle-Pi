@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="Remote_PC" type="NeuralNetwork_Exec.py" name="NeuralNetwork_Exec" output="screen" />
+</launch>

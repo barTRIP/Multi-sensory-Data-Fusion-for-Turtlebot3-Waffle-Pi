@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="Remote_PC" type="NeuralNetwork_Exec_Sonar.py" name="NeuralNetwork_Exec_Sonar" output="screen" />
+</launch>
