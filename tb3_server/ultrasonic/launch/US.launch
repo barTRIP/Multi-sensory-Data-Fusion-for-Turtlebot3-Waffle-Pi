@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="ultrasonic" type="US_L.py" name="US_L" output="screen" />
+  <node pkg="ultrasonic" type="US_R.py" name="US_R" output="screen" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="us_r_broadcaster" args="0.085 -0.08 0.102 0 0 -0.0848977 0.9963897 base_link sonarR_link" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="us_l_broadcaster" args="0.085 0.08 0.102 0 0 0.0848977 0.9963897 base_link sonarL_link" /> 
+</launch>
+
+

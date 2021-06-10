@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="ultrasonic" type="US_L.py" name="US_L" />
+  <node pkg="ultrasonic" type="US_R.py" name="US_R" />
+  <node pkg="tf" type="static_transform_publisher" name="Left_US_broadcaster" args="0.15 0  
+</launch>
+
+
