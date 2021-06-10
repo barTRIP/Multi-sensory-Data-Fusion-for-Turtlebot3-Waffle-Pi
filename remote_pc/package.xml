@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>remote_pc</name>
+  <version>0.0.0</version>
+  <description>The remote_pc package</description>
+
+  <maintainer email="andres@todo.todo">andres</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>ros_numpy</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf</depend>  
+  
+  <exec_depend>python-numpy</exec_depend>
+
+</package>
