@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="remote_pc" type="TrainData3csv.py" name="TrainData3csv" output="screen" />
+  <node pkg="remote_pc" type="TrueData3csv.py" name="TrueData3csv" output="screen" />
+</launch>
