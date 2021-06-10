@@ -1,4 +1,0 @@
-<launch>
-  <node pkg="Remote_PC" type="NeuralNetwork_Generator_Sonar.py" name="NeuralNetwork_Generator_Sonar" output="screen" />
-  <node pkg="Remote_PC" type="NeuralNetwork_Generator_FullSensor.py" name="NeuralNetwork_Generator_FullSensor" output="screen" />
-</launch>
